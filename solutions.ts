@@ -27,4 +27,16 @@ function concatenateArrays<T>(...arrays: T[][]): T[] {
     return arrays.reduce<T[]>((result, current) => result.concat(current), []);
 }
 
+interface Course {
+    title: string;
+    students: number;
+    isPublished: boolean;
+}
 
+function getPopularCourses(courses: Course[], minStudents: number): Course[] {
+    return courses.filter(course => course.isPublished && course.students >= minStudents);
+}
+
+function pluckValues<T, K extends keyof T>(items: T[], key: K): T[K][] {
+    return items.map(item => item[key]);
+}

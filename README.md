@@ -24,8 +24,8 @@ The `solutions.ts` file contains the implementations for the eight fully specifi
 
 ## Blog Posts
 
-[Type vs Interface in TypeScript](./type-vs-interface.md)
-[Type Narrowing in TypeScript](./type-narrowing.md)
+- [Type vs Interface in TypeScript](./type-vs-interface.md)
+- [Type Narrowing in TypeScript](./type-narrowing.md)
 
 ## Problems Covered
 
@@ -53,5 +53,5 @@ npx tsx solutions.ts
 ```
 
 ## Submission
-[Public GitHub repository](https://github.com/DeveloperMonirBD/b8a1-typescript-assignment-project)
+- [Public GitHub repository](https://github.com/DeveloperMonirBD/b8a1-typescript-assignment-project)
 
